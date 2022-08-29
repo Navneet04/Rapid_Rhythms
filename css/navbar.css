@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* navbar styling starts */
+#mainNavbar{
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    opacity: 80%;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* for styling navbar brand text */
+#mainNavbar .navbar-brand{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+/* for setting font size of links large */
+#mainNavbar .nav-link{
+    font-size: large;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    float:right;
+}
+/* for styling active link of navbar */
+#mainNavbar .navbar-nav .active .nav-link{
+    color: white;
+    background-color: maroon;
+}
+
+/* for showing color when hovered over nav-link items */
+#mainNavbar .navbar-nav .nav-link:hover{
+    color: white;
+}
+#mainNavbar .navbar-nav .nav-link{
+    position: relative;
+    float:right;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .8s;
+}
+
+/* SHIFT */
+nav.shift ul li a {
+    position:relative;
+    z-index: 1;
+  }
+  nav.shift ul li a:hover {
+    color: white;
+  }
+  nav.shift ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: maroon;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+  }
+  nav.shift ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+.navbar-toggler{
+    background-color:white;
+}
+.navbar-toggler .navbar-toggler-icon{
+    color:white;
+}
+
+/* navbar styling ends */

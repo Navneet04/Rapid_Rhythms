@@ -1,0 +1,42 @@
+ /* google fonts cdn */
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+
+
+ .dance
+ {
+     background: rgba(0,0,0,0.1);
+     font-weight: bolder;
+     font-family: 'Open sans', sans-serif;
+     color: #000;
+     border: 1px solid #fff;
+     border-left: none;
+     border-top: none;
+     text-align: center;
+     padding: 20px;
+     width: 150px;
+ }
+ 
+ .timing
+ {
+     background: maroon;
+     font-size: 10px;
+     font-family: 'Open sans', sans-serif;
+     color: #FFF;
+     border: 2px solid #FFF;
+     border-left: none;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ 
+ .tspan
+ {
+     font-size: 12px;
+     font-family: 'Open sans', sans-serif;;
+     color: maroon;
+     display: block;
+     padding-top: 5px;
+     letter-spacing: normal;
+     font-weight:bold;
+ }
+ 

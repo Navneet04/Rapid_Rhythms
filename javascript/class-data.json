@@ -1,0 +1,87 @@
+[
+    {
+        "id": "mon1",
+        "classname": "Urban",
+        "teacher": "Harshita"
+    },
+    {
+        "id": "mon2",
+        "classname": "Bollywood",
+        "teacher": "Ennette Dsouza"
+    },
+    {
+        "id": "mon5",
+        "classname": "Hip-Hop",
+        "teacher": "Sagrika Bhatt"
+    },
+    {
+        "id": "tues2",
+        "classname": "Bollywood",
+        "teacher": "Ennette Dsouza"
+    },
+    {
+        "id": "tues4",
+        "classname": "Urban",
+        "teacher": "Sagrika Bhatt"
+    },
+    {
+        "id": "tues9",
+        "classname": "Hip-Hop",
+        "teacher": "Puneet Pathak"
+    },
+    {
+        "id": "wed1",
+        "classname": "House & Hip-Hop",
+        "teacher": "Harshita"
+    },
+    {
+        "id": "wed3",
+        "classname": "Bollywood",
+        "teacher": "Lauren Gotteib"
+    },
+    {
+        "id": "wed6",
+        "classname": "Urban",
+        "teacher": "Shakti Mohan"
+    },
+    {
+        "id": "thur4",
+        "classname": "Contemporary",
+        "teacher": "Shakti Mohan"
+    },
+    {
+        "id": "fri2",
+        "classname": "Contemporary",
+        "teacher": "Sagrika Bhatt"
+    },
+    {
+        "id": "fri7",
+        "classname": "Hip-Hop",
+        "teacher": "Sagrika Bhatt"
+    },
+    {
+        "id": "sat1",
+        "classname": "House & Hip-Hop",
+        "teacher": "Navya"
+    },
+    {
+        "id": "sat4",
+        "classname": "Urban",
+        "teacher": "Harshita"
+    },
+    {
+        "id": "sat8",
+        "classname": "Bollywood",
+        "teacher":"Ennette Dsouza"
+    },
+    {
+        "id": "sun3",
+        "classname": "House & Hip-Hop",
+        "teacher": "Puneet Pathak"
+    },
+    {
+        "id": "sun6",
+        "classname": "Contemporary",
+        "teacher": "Navya"
+    }
+]

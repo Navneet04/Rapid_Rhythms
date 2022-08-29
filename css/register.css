@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald',sans-serif;
+    color: maroon;
+}
+
+
+/*.form-input{
+    width: 50%;
+    margin-left: 300px;
+}*/
+
+/* .form-container{
+        
+} */
+
+
+/* .contact{
+    display: inline-block;
+} */
+
+.container {
+    position: relative;
+  }
+
+/* form styling begins*/
+/* div.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: fit-content;
+}  */
+form{
+    margin-top: 30px;
+}
+
+input{
+    height: 60px;
+    width: 100%;
+    min-width: 100%; 
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.submit-button{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}  
+
+#submit-btn{
+    color: white;
+    background-color: maroon;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 2px;
+    opacity:60%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: maroon;
+    opacity: 1; /* Firefox */
+  }
+/* form styling ends  */
